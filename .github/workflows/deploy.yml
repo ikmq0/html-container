@@ -20,9 +20,9 @@ jobs:
             cd /path/to/your/project-folder
             # Pull the latest code
             git pull origin main
-            
+
             # Rebuild the FastAPI image in case dependencies changed
-            docker compose build api
+            docker compose build
 
             # Restart the containers with the new code
             docker compose up -d

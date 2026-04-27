@@ -17,7 +17,7 @@ jobs:
           key: ${{ secrets.SSH_PRIVATE_KEY }}
           script: |
             # Navigate to your project folder (CHANGE THIS TO YOUR ACTUAL PATH)
-            cd /path/to/your/project-folder
+            cd ~/html-container
             # Pull the latest code
             git pull origin main
 
